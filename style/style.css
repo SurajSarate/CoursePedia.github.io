@@ -1,0 +1,84 @@
+.body{
+    /* background-color: #007bee; */
+    background-color:#3EDBF0;
+}
+
+main{
+    /* border: 2px solid black; */
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1 img{
+    height: 90vh;
+    width: auto;
+    overflow:visible;
+    /* margin:0px 0px 0px 0px; */
+    padding-left: 10px;
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin:auto;
+    width: auto;
+    justify-content: center;
+    overflow:visible;
+    align-items: center;
+    text-align: center;
+}
+
+/* .sec2 p{
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+.sec2 h4{
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+}  
+.sec2 h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+}  
+.sec2 h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6rem;
+}  
+
+.sec2 button{
+    font-family: 'Staatliches', cursive;
+    margin-top: 20px;
+    border: #007bee;
+    color: #3EDBF0;
+    border-radius: 50px;
+    height: 40px;
+    width: 130px;
+}
+
+.sec2 > h2 > span{
+    font-size: 70px;
+    display: none;
+}
+.hide:hover .hide-item,
+.hide:focus .hide-item {
+  display:inline-block;
+  color: #7DEDFF;
+}
+
+.hide-item{
+    display: none;
+}
+
+.bg{
+    background-image: linear-gradient(#F9F9F9 0%, #3EDBF0 84%);
+}
+
+.font{
+    font-family: 'Staatliches', cursive;
+}
